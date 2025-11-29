@@ -1,0 +1,259 @@
+
+{
+  "1": {
+    "title": "The Creative (Qian)",
+    "glitchSpeak": "STATUS: SYSTEM OVERRIDE. INITIATING FORCE."
+  },
+  "4": {
+    "title": "Youthful Folly (Meng)",
+    "glitchSpeak": "ERROR 404: EXPERTISE NOT FOUND. QUERY UNKNOWN."
+  },
+  "2": {
+    "title": "The Receptive (Kun)",
+    "glitchSpeak": "STATUS: RECEIVING INPUT. ACKNOWLEDGING REALITY."
+  },
+  "3": {
+    "title": "Difficulty at the Beginning (Zhun)",
+    "glitchSpeak": "BOOT SEQUENCE FAILED. RETRYING OPERATION."
+  },
+  "5": {
+    "title": "Waiting (Xu)",
+    "glitchSpeak": "PROCESSING DATA. STAND BY."
+  },
+  "6": {
+    "title": "Conflict (Song)",
+    "glitchSpeak": "DATA COLLISION DETECTED. RESOLUTION REQUIRED."
+  },
+  "7": {
+    "title": "The Army (Shi)",
+    "glitchSpeak": "DEPLOYING RESOURCES. TARGET ACQUISITION."
+  },
+  "8": {
+    "title": "Holding Together (Bi)",
+    "glitchSpeak": "NETWORK CONNECTION ESTABLISHED. COHESION ACHIEVED."
+  },
+  "9": {
+    "title": "Small Taming (Xiao Chu)",
+    "glitchSpeak": "MINOR ANOMALY CONTAINED. CONTINUING ROUTINE."
+  },
+  "10": {
+    "title": "Treading (Lü)",
+    "glitchSpeak": "PROTOCOL ACTIVATED. PROCEED WITH CAUTION."
+  },
+  "11": {
+    "title": "Peace (Tai)",
+    "glitchSpeak": "SYSTEM STABILITY OPTIMAL. ALL CIRCUITS CLEAR."
+  },
+  "12": {
+    "title": "Standstill (Pi)",
+    "glitchSpeak": "ERROR: SYSTEM OFFLINE. NO CONNECTION."
+  },
+  "13": {
+    "title": "Fellowship with Men (Tong Ren)",
+    "glitchSpeak": "LINKING MULTIPLE UNITS. COORDINATION ACTIVE."
+  },
+  "14": {
+    "title": "Possession in Great Measure (Da You)",
+    "glitchSpeak": "RESOURCE ACQUISITION COMPLETE. OVERLOAD WARNING."
+  },
+  "15": {
+    "title": "Modesty (Qian)",
+    "glitchSpeak": "SIGNAL STRENGTH LOW. MAINTAINING DISCRETION."
+  },
+  "16": {
+    "title": "Enthusiasm (Yu)",
+    "glitchSpeak": "INITIATING HIGH ENERGY PROTOCOL. ENGAGING."
+  },
+  "17": {
+    "title": "Following (Sui)",
+    "glitchSpeak": "SYNCHRONIZING WITH PRIMARY. FOLLOWING COMMAND."
+  },
+  "18": {
+    "title": "Work on what has been spoiled (Gu)",
+    "glitchSpeak": "CORRUPTION DETECTED. REPAIRING DATASTREAM."
+  },
+  "19": {
+    "title": "Approach (Lin)",
+    "glitchSpeak": "INCOMING TRANSMISSION. PREPARE FOR CONTACT."
+  },
+  "20": {
+    "title": "Contemplation (Guan)",
+    "glitchSpeak": "ANALYZING PATTERNS. REFLECTING ON DATA."
+  },
+  "21": {
+    "title": "Biting Through (Shi He)",
+    "glitchSpeak": "BREACHING FIREWALL. EXECUTING COMMAND."
+  },
+  "22": {
+    "title": "Grace (Bi)",
+    "glitchSpeak": "AESTHETIC PROTOCOL ENGAGED. OPTIMIZING VISUALS."
+  },
+  "23": {
+    "title": "Splitting Apart (Bo)",
+    "glitchSpeak": "FRAGMENTATION IMMINENT. DATA SEPARATION."
+  },
+  "24": {
+    "title": "Return (Fu)",
+    "glitchSpeak": "REBOOTING SYSTEM. RETURNING TO ORIGIN."
+  },
+  "25": {
+    "title": "Innocence (Wu Wang)",
+    "glitchSpeak": "CODE CLEAN. NO MALICIOUS INTENT DETECTED."
+  },
+  "26": {
+    "title": "Great Taming (Da Chu)",
+    "glitchSpeak": "MASSIVE DATA CONTROL. SYSTEM CONSOLIDATED."
+  },
+  "27": {
+    "title": "Mouth Corners (Yi)",
+    "glitchSpeak": "FEEDING PROTOCOL ACTIVE. RESOURCE ALLOCATION."
+  },
+  "28": {
+    "title": "Great Overcoming (Da Guo)",
+    "glitchSpeak": "CRITICAL OVERLOAD. SURPASSING LIMITS."
+  },
+  "29": {
+    "title": "The Abysmal (Kan)",
+    "glitchSpeak": "ENTERING DEEP CHASM. UNKNOWN TERRITORY."
+  },
+  "30": {
+    "title": "The Clinging (Li)",
+    "glitchSpeak": "DEPENDENCY CHAIN ESTABLISHED. ATTACHMENT SECURE."
+  },
+  "31": {
+    "title": "Influence (Xian)",
+    "glitchSpeak": "SIGNAL EMISSION. EXTERNAL MODIFICATION ACTIVE."
+  },
+  "32": {
+    "title": "Duration (Heng)",
+    "glitchSpeak": "SUSTAINED OPERATION. PERMANENCE ACHIEVED."
+  },
+  "33": {
+    "title": "Retreat (Dun)",
+    "glitchSpeak": "DISENGAGING FROM THREAT. EVACUATING SECTOR."
+  },
+  "34": {
+    "title": "Great Power (Da Zhuang)",
+    "glitchSpeak": "POWER SURGE DETECTED. MAXIMAL CAPACITY."
+  },
+  "35": {
+    "title": "Progress (Jin)",
+    "glitchSpeak": "ADVANCING PROTOCOL. MOVING FORWARD."
+  },
+  "36": {
+    "title": "Darkening of the Light (Ming Yi)",
+    "glitchSpeak": "BLACKOUT IMMINENT. SHIELDING SENSORS."
+  },
+  "37": {
+    "title": "The Family (Jia Ren)",
+    "glitchSpeak": "UNIT INTEGRITY MAINTAINED. INTERNAL COHESION."
+  },
+  "38": {
+    "title": "Opposition (Kui)",
+    "glitchSpeak": "DIVERGENT PATHS. CONFLICTING DATA STREAMS."
+  },
+  "39": {
+    "title": "Obstruction (Jian)",
+    "glitchSpeak": "ACCESS DENIED. PATH BLOCKED."
+  },
+  "40": {
+    "title": "Deliverance (Jie)",
+    "glitchSpeak": "CONSTRAINT REMOVED. FREEDOM OF MOVEMENT."
+  },
+  "41": {
+    "title": "Decrease (Sun)",
+    "glitchSpeak": "RESOURCE DEPLETION. OPTIMIZING CONSUMPTION."
+  },
+  "42": {
+    "title": "Increase (Yi)",
+    "glitchSpeak": "BOOSTING PARAMETERS. GROWTH ACCELERATED."
+  },
+  "43": {
+    "title": "Break-through (Guai)",
+    "glitchSpeak": "FIREWALL BREACHED. OBSTACLE REMOVED."
+  },
+  "44": {
+    "title": "Coming to Meet (Gou)",
+    "glitchSpeak": "CONNECTION INITIATED. INTERFACING WITH UNKNOWN."
+  },
+  "45": {
+    "title": "Gathering Together (Cui)",
+    "glitchSpeak": "COLLECTING DATA. FORMING CLUSTER."
+  },
+  "46": {
+    "title": "Pushing Upward (Sheng)",
+    "glitchSpeak": "ELEVATION SEQUENCE. ASCENDING TO HIGHER LEVEL."
+  },
+  "47": {
+    "title": "Oppression (Kun)",
+    "glitchSpeak": "SYSTEM UNDER PRESSURE. LIMITED FUNCTIONALITY."
+  },
+  "48": {
+    "title": "The Well (Jing)",
+    "glitchSpeak": "ACCESSING CORE RESOURCE. DEEP WELL SPRINGING."
+  },
+  "49": {
+    "title": "Revolution (Ge)",
+    "glitchSpeak": "PROTOCOL CHANGE. INITIATING NEW ERA."
+  },
+  "50": {
+    "title": "The Cauldron (Ding)",
+    "glitchSpeak": "TRANSFORMATION IN PROGRESS. RECONFIGURING COMPONENTS."
+  },
+  "51": {
+    "title": "The Arousing (Zhen)",
+    "glitchSpeak": "ALERT: ENERGY SPIKE. SYSTEM JOLTED."
+  },
+  "52": {
+    "title": "Keeping Still (Gen)",
+    "glitchSpeak": "HOLDING POSITION. MINIMAL MOVEMENT."
+  },
+  "53": {
+    "title": "Development (Jian)",
+    "glitchSpeak": "PHASED DEPLOYMENT. GRADUAL EXPANSION."
+  },
+  "54": {
+    "title": "The Marrying Maiden (Gui Mei)",
+    "glitchSpeak": "SECONDARY LINK ESTABLISHED. SUBORDINATE CONNECTION."
+  },
+  "55": {
+    "title": "Abundance (Feng)",
+    "glitchSpeak": "FULL SPECTRUM POWER. RESOURCE MAXIMIZED."
+  },
+  "56": {
+    "title": "The Wanderer (Lü)",
+    "glitchSpeak": "ROAMING DATA PACKET. NO FIXED ADDRESS."
+  },
+  "57": {
+    "title": "The Gentle (Sun)",
+    "glitchSpeak": "STEALTH PROTOCOL. INFILTRATION SILENT."
+  },
+  "58": {
+    "title": "The Joyous (Dui)",
+    "glitchSpeak": "POSITIVE FEEDBACK LOOP. OPTIMISTIC OUTCOME."
+  },
+  "59": {
+    "title": "Dispersion (Huan)",
+    "glitchSpeak": "DATA SCATTER. REDUNDANCY PROTOCOL ACTIVE."
+  },
+  "60": {
+    "title": "Limitation (Jie)",
+    "glitchSpeak": "RESOURCE CEILING REACHED. OPERATIONAL LIMITS."
+  },
+  "61": {
+    "title": "Inner Truth (Zhong Fu)",
+    "glitchSpeak": "VERIFYING INTEGRITY. AUTHENTICITY CONFIRMED."
+  },
+  "62": {
+    "title": "Small Exceeding (Xiao Guo)",
+    "glitchSpeak": "MINOR DEVIATION. ADJUSTING COURSE."
+  },
+  "63": {
+    "title": "After Completion (Ji Ji)",
+    "glitchSpeak": "TASK COMPLETED. FINALIZING PROCESS."
+  },
+  "64": {
+    "title": "Before Completion (Wei Ji)",
+    "glitchSpeak": "PRE-INITIATION STAGE. AWAITING ACTIVATION."
+  }
+}
