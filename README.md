@@ -22,7 +22,13 @@ Adhering to the solemnity of daily divination, the app uses **MMKV** to enforce 
 - If a user has already generated a reading for the day, the system refuses to generate a new one.
 - Returning users are greeted with their persistent daily fate.
 
-### 4. A24 / Cyberpunk Aesthetic
+### 4. Tactile Feedback (Haptics)
+The app uses **expo-haptics** to provide physical feedback during the ritual:
+- **Buildup**: A "geiger counter" ticking sensation that accelerates as the screen distortion increases.
+- **Snap**: A heavy impact when the hexagram is revealed.
+- **System Lock**: A warning notification vibration if the daily reading is already active.
+
+### 5. A24 / Cyberpunk Aesthetic
 - **Typography**: Uses *Space Mono* for a raw, monospaced terminal look.
 - **Palette**: High-contrast "Terminal Green" (`#39FF14`) and "Error Red" (`#FF0055`) on an "Almost Black" (`#080808`) void.
 - **UI Components**: Custom typewriter text effects and sharp, brutalist layout primitives (no rounded corners).
@@ -40,10 +46,8 @@ The project is built with **React Native** (via Expo) and utilizes modern, high-
 | **Animation** | react-native-reanimated | 120fps driver for gestures and UI animations. |
 | **Gestures** | react-native-gesture-handler | Handling complex touch interactions (Long Press, Pan). |
 | **Storage** | react-native-mmkv | Ultra-fast synchronous storage for persisting daily state. |
+| **Haptics** | expo-haptics | Native vibration engine for tactile feedback. |
 | **Typography** | expo-font | Loading custom Google Fonts (Space Mono). |
-| **Sound** | expo-av | Audio playback engine for UI feedback (Placeholder). |
-
-> **Note on State Management**: While `zustand` is installed, the current iteration leverages local component state and MMKV for persistence to maintain a lightweight footprint.
 
 ---
 
@@ -51,7 +55,7 @@ The project is built with **React Native** (via Expo) and utilizes modern, high-
 
 ```text
 glitching/
-├── App.tsx                 # Entry point. Orchestrates Gestures, Animation, and MMKV logic.
+├── App.tsx                 # Entry point. Orchestrates Gestures, Animation, Haptics, and MMKV logic.
 ├── src/
 │   ├── components/
 │   │   ├── GlitchScreen.tsx # The Skia Canvas component running the GLSL distortion shader.
@@ -68,37 +72,9 @@ glitching/
 
 ---
 
-## 🧩 Key Modules Explained
-
-### `src/components/GlitchScreen.tsx`
-This component hosts the **Skia Canvas**. It compiles a custom GLSL Runtime Effect that manipulates pixel coordinates based on a `u_distortion` uniform.
-- **Input**: `distortion` (Reanimated SharedValue).
-- **Output**: A procedurally generated "broken screen" visual that reacts to user touch intensity.
-
-### `App.tsx`
-The application brain. It:
-1.  Initializes the **Gesture Handler** to detect the specific "hold" interaction.
-2.  Manages **Reanimated** shared values (`distortion`, `shakeX`, `shakeY`) to drive the loop.
-3.  Checks **MMKV** storage on mount to enforce the daily reading rule.
-4.  Coordinates the transition between the "Idle," "Glitching," and "Result" states.
-5.  Implements the **Daily Cache** check:
-    ```typescript
-    const stored = storage.getString(getTodayKey());
-    if (stored) {
-       // Lock the system and show previous reading
-    }
-    ```
-
-### `src/hooks/useEntropy.ts`
-Encapsulates the randomness logic.
-- *Current State*: Uses a fallback algorithm combining battery level and high-precision timestamps.
-- *Future Roadmap*: Fully integrate high-frequency gyroscope sampling for "True Randomness."
-
----
-
 ## 📦 Installation & Setup
 
-**Important**: This project uses native modules (`react-native-mmkv`, `@shopify/react-native-skia`) that are **not supported** in the standard Expo Go app. You must use a **Development Build**.
+**Important**: This project uses native modules (`react-native-mmkv`, `@shopify/react-native-skia`, `expo-haptics`) that are **not supported** in the standard Expo Go app. You must use a **Development Build** or a standalone APK/IPA.
 
 1.  **Clone the repository**
     ```bash
@@ -125,18 +101,20 @@ Encapsulates the randomness logic.
     npx expo run:android
     ```
 
-### ⚠️ Troubleshooting
+### 🏗 Building a Release APK (Android)
 
-**"Invariant Violation: TurboModuleRegistry.getEnforcing(...): 'NitroMmkv' could not be found"**
-- **Cause**: The native code for MMKV or Skia hasn't been compiled into your app binary.
-- **Fix**: 
-  1. Stop the metro bundler (`Ctrl+C`).
-  2. Rebuild the native app: `npx expo run:ios` (or `android`).
-  3. Start with clear cache: `npx expo start -c`.
+To generate a standalone APK file for manual installation:
+
+```bash
+./android/gradlew assembleRelease -p android
+```
+
+*   **Output Location**: `android/app/build/outputs/apk/release/app-release.apk`
+*   **Note**: This bypasses EAS and builds directly using the local Gradle wrapper.
 
 ---
 
 ## 🔮 Future Roadmap
 - [ ] **Audio Integration**: Complete the `Typewriter` sound effects using `expo-av`.
-- [ ] **Haptics**: Add heavy vibration feedback during the glitch phase.
 - [ ] **Share Feature**: Export the generated "Glitch Art" as an image.
+- [ ] **Gyroscope Entropy**: Finish integrating the gyroscope sensor for true hardware-based randomness.
